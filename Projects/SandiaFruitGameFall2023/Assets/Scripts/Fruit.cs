@@ -6,12 +6,12 @@ public class Fruit : MonoBehaviour
     public FruitsSO fruitType; // The current fruit type of this GameObject.
     public UnityEvent onMerged; // Unity Event to trigger when the fruit merges.
     private bool hasMerged = false; // Track if this fruit has already merged.
-    private Renderer renderer;
+    private Renderer Fruitrenderer;
     
     private void Start()
     {
-        renderer = GetComponent<Renderer>();
-        renderer.material.color = fruitType.fruitColor; // Assign the color based on the fruit type.
+        Fruitrenderer = GetComponent<Renderer>();
+        Fruitrenderer.material.color = fruitType.fruitColor; // Assign the color based on the fruit type.
     }
 
     private void OnTriggerEnter(Collider other)
