@@ -1,3 +1,6 @@
 [submodule "https://github.com/valeskab/ScriptLibraryTools"]
 	path = https://github.com/valeskab/ScriptLibraryTools
 	url = 3440UnityFall2023FGP/Assets/Tools
+[submodule "Projects/SandiaFruitGameFall2023/Assets/Tools"]
+	path = Projects/SandiaFruitGameFall2023/Assets/Tools
+	url = https://github.com/valeskab/ScriptLibraryTools
