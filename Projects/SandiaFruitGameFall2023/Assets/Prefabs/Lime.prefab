@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2374360236672120527}
   - component: {fileID: 2374360236672120520}
   - component: {fileID: 2374360236672120563}
+  - component: {fileID: -662352080943026544}
   m_Layer: 0
   m_Name: Lime
   m_TagString: Untagged
@@ -131,3 +132,30 @@ MonoBehaviour:
   onMerged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-662352080943026544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2374360236672120521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6bbd3e4236c76d4c9bc4fa02de9c3a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 31c9e6eded71e3141852722b15d194a1, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
