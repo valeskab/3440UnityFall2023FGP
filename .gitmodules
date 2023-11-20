@@ -4,3 +4,6 @@
 [submodule "Projects/SandiaFruitGameFall2023/Assets/Tools"]
 	path = Projects/SandiaFruitGameFall2023/Assets/Tools
 	url = https://github.com/valeskab/ScriptLibraryTools
+[submodule "Projects/SandiaFruitGameFall2023/Assets/ArtisanDreamTools"]
+	path = Projects/SandiaFruitGameFall2023/Assets/ArtisanDreamTools
+	url = https://github.com/anthonyromrell/ArtisanDream.Tools
